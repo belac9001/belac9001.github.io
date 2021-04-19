@@ -16,7 +16,7 @@ Kumoricon Registration is a system that is used by volunteers of Kumoricon to ch
 
 The specific enhancement that I'm presenting is an enhancement that automatically creates registration user accounts. Previously, registration staff members' accounts were created manually. With this new enhancement, when the staff members are imported into the system, their user accounts are created alongside their person profile. 
 
-Link to enhancement: https://github.com/kumoregdev/registration/commit/b912c5963ce713530f9885563016ceba7482e74c
+Link to enhancement: [https://github.com/kumoregdev/registration/commit/b912c5963ce713530f9885563016ceba7482e74c](https://github.com/kumoregdev/registration/commit/b912c5963ce713530f9885563016ceba7482e74c)
 
 I learned a decent amount while working on this enhancement. Specific to the artifact, I learned how staff import works, and how automatic user account creation could exist within the import function. Another area that I learned a lot about was the PostgreSQL database. A new key needed to be added into the database to allow for users to have a unique identification. This process taught me how to add a new field to an existing schema as well as how to wipe and rebuild the schema from scratch. 
 
